@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Name=Apple Music
+Exec=waydroid app launch com.apple.android.music
+Icon=/home/slayer/.local/share/waydroid/data/icons/com.apple.android.music.png
+Categories=X-WayDroid-App;
+X-Purism-FormFactor=Workstation;Mobile;
+Actions=app-settings;
+
+[Desktop Action app-settings]
+Name=App Settings
+Exec=waydroid app intent android.settings.APPLICATION_DETAILS_SETTINGS package:com.apple.android.music
+Icon=/home/slayer/.local/share/waydroid/data/icons/com.android.settings.png

@@ -42,7 +42,7 @@ echo 60 | sudo tee /sys/class/power_supply/BAT1/charge_control_end_threshold
 
 ---
 
-- [x] **Restore Dotfiles:** Download the `git` bare repository and deploy the files on your PC [[Restore Backup On a Fresh Install]].
+- [ ] **Restore Dotfiles:** Download the `git` bare repository and deploy the files on your PC [[Restore Backup On a Fresh Install]].
 
 **OPTIONAL**
 >[!error]+ Your mouse button will be reversed AFTER RESTORING THE DOTFILES, if you're using a physical mouse. 
@@ -891,7 +891,7 @@ Fine-tune your Hyprland compositor and shell environment. These steps are often 
 
 **Clean Environment Variables:**
 
-- [x] Comment OUT any and all environment variable under the Nvidia section in the uwsm env file. 
+- [ ] Comment OUT any and all environment variable under the Nvidia section in the uwsm env file. 
 
 ```bash
 nvim ~/.config/uwsm/env
@@ -911,7 +911,7 @@ also comment out this line
 
 ---
 
-- [x] Comment OUT this variable If you only have integrated GPU i.e no NVIDIA
+- [ ] Comment OUT this variable If you only have integrated GPU i.e no NVIDIA
 
 ```bash
 nvim ~/.config/uwsm/env-hyprland
@@ -1102,14 +1102,14 @@ nvim ~/.config/uwsm/env-hyprland
 ### 3. (Optional) Package Management & Software Installation
 
 - [ ] **Install Tools:**
-    - [ ] Install `ollama`. [[+ MOC Ollama]]
+    - [x] Install `ollama`. [[+ MOC Ollama]]
     - [ ] Install `faster-whisper`. [[Faster Whisper]] (Recommanded, for CPU only) TTS
     - [ ] Install Nvidia `parakeet` [[Parakeet]] (Recommanded, requires nvidia) TTS
 	- [ ] Install `kokoro` [[Kokoro Rust CPU]] (Recommanded, for CPU only) STT
 	- [ ] Install `kokoro` [[Kokoro GPU]] (Recommanded, requires nvidia) STT
 	- [ ] Install `DaVinci Resolve` [[DaVinci Resolve]]
 	- [ ] Install `Steam, wine, lutris` [[Gaming]]
-	- [ ] Install `Waydroid` :- Android container. lightweight. [[+ MOC Waydroid]]
+	- [x] Install `Waydroid` :- Android container. lightweight. [[+ MOC Waydroid]]
 
 ---
 
